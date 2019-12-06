@@ -1,0 +1,93 @@
+/* Esto es la hoja de estilos del trabajo de sistemas */
+
+body{
+    background-color: grey;
+    font-size: calc(0.5em + 2vw);
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+#r1{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+#titulo {
+    position: absolute;
+    top: 10vw;
+    left: 6.5vw;
+    border-style: double;
+    border-color: white;
+    padding: 2vw;
+    border-radius: 25px;
+}
+
+/* Estilo del nav */
+
+#r2{
+    font-size: 2.30vw;
+    position: absolute;
+    top: 25vw;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+  }
+li {
+    float: left;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: blue;
+}
+
+/* Estilos main */
+
+main{
+    font-size: 2.30vw;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+#r4{
+    width: 60vw;
+    height: 50vh;
+}
+a{
+    text-decoration: none;
+}
+
+/* Estilo footer */
+
+footer{
+    color: black;
+    background-color: silver ;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+.fa {
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+  }
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
